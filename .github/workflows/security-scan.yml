@@ -28,5 +28,5 @@ jobs:
         with:
           image-ref: jenkins-demo:scan
           format: table
-          exit-code: '0'
+          exit-code: '1'
           severity: HIGH,CRITICAL
