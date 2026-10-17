@@ -24,7 +24,7 @@ jobs:
         run: docker build -t jenkins-demo:scan .
 
       - name: Scan Image with Trivy
-        uses: aquasecurity/trivy-action@0.33.1
+        uses: aquasecurity/trivy-action@v0.36.0
         with:
           image-ref: jenkins-demo:scan
           format: table
